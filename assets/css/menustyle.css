@@ -1,0 +1,174 @@
+body {
+    background-color: #FFE8B0;
+}
+
+#background #h1{
+    pointer-events: none;
+}
+
+#logo {
+    display: flex;
+    margin-left: 15px;
+    float: left;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.nav--button {
+    background-color: #FFBBBF;
+    padding: 6px;
+    border-radius: 17px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 11px;
+    width: 7em;
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white; 
+    font-size: 16px;
+}
+
+.nav--button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+nav a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background-color: white;
+    color: #FFBBBF;
+    border-radius: 17px;
+    width: 21.4em;
+    text-decoration: none;
+    margin-top: 130px;
+    margin-left: 226px;
+    pointer-events: none;
+    height: 1.66em;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    transform: translateY(170px);
+    margin-left: 226px;
+}
+
+#strawberrymatcha {
+    border-top-left-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 14px;
+    position: relative;
+}
+
+#strawberrymatcha:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+
+#glazed {
+    margin-bottom: 10px;
+    margin-right: 14px;
+    position: relative;
+}
+
+#glazed:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+
+#sprinkles {
+    margin-bottom: 10px;
+    margin-right: 14px;
+    position: relative;
+}
+
+#sprinkles:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+
+#chocolatedrizzle {
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 14px;
+    position: relative;
+}
+
+#chocolatedrizzle:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+
+#newyorkcheesecake {
+    border-bottom-left-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 14px;
+    position: relative;
+}
+
+#newyorkcheesecake:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+
+#cakebatter {
+    margin-bottom: 10px;
+    margin-right: 14px;
+    position: relative;
+}
+
+#cakebatter:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+
+#cakebatter {
+    margin-bottom: 10px;
+    margin-right: 14px;
+    position: relative;
+}
+
+#cakebatter:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+
+#raspberryjelly {
+    margin-bottom: 10px;
+    margin-right: 14px;
+    position: relative;
+}
+
+#raspberryjelly:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+
+#donutholes {
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 14px;
+    position: relative;
+}
+
+#donutholes:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+}
+
+
+
+

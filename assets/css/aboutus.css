@@ -1,0 +1,105 @@
+body {
+    background-color: #FFE8B0;
+}
+
+#background #h1{
+    pointer-events: none;
+}
+
+#logo {
+    display: flex;
+    margin-left: 15px;
+    float: left;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.nav--button {
+    background-color: #FFBBBF;
+    padding: 6px;
+    border-radius: 17px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 11px;
+    width: 7em;
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white; 
+    font-size: 16px;
+}
+
+.nav--button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+nav a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background-color: white;
+    color: #FFBBBF;
+    border-radius: 17px;
+    width: 21.4em;
+    text-decoration: none;
+    margin-top: 130px;
+    margin-left: 226px;
+    pointer-events: none;
+    height: 1.66em;
+}
+
+#madewlove {
+    position: relative;
+    margin-top: 205px;
+    margin-left: 50px;
+    overflow-y: hidden;
+}
+
+.index {
+    position: relative;
+    text-align: right;
+    color: white;
+    margin-top: -557px;
+    margin-right: 211px;
+}
+
+.index-text {
+    position: relative;
+    margin-top: -450px;
+    margin-right: 82px;
+    font-size: 30px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    overflow-y: hidden;
+}
+
+.index-text1 {
+    position: relative;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 40px;
+    margin-left: 700px;
+    font-size: 19px;
+    color: black;
+    text-align: center;
+    width: 23em;
+    overflow-y: hidden;
+}

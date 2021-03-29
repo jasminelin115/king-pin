@@ -1,1 +1,96 @@
+.catchphrase #background #logo .content{
+    pointer-events: none;
+}
 
+#logo {
+    display: flex;
+    margin-left: 15px;
+    float: left;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.nav--button {
+    background-color: #FFBBBF;
+    padding: 6px;
+    border-radius: 17px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 11px;
+    width: 7em;
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white; 
+    font-size: 16px;
+}
+
+.nav--button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+nav a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#index a{
+    text-decoration: none;
+}
+
+.follow-button {
+    background-color: #FFBBBF;
+    padding: 6px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270px;
+    width: 8em;
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white; 
+    font-size: 26px;
+    float: bottom;
+    transform: translateY(510px);
+}
+
+.follow-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.follow-button:active {
+    font-size: 28px;
+}
+
+section a {
+    text-decoration: none;
+}
+
+.catchphrase {
+    pointer-events: none;
+    font-size: 60px;
+    font-family: 'Nunito Sans', sans-ser if;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 100px;
+    transform: translateX(3px);
+    width: 13em;
+    color: black;
+}

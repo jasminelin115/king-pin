@@ -1,0 +1,236 @@
+html {
+    overflow-y: hidden;
+}
+
+body {
+    background-color: #FFE8B0;
+}
+
+#background #h1{
+    pointer-events: none;
+}
+
+#logo {
+    display: flex;
+    margin-left: 15px;
+    float: left;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: space-evenly;
+}
+
+.nav--button {
+    background-color: #FFBBBF;
+    padding: 6px;
+    border-radius: 17px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 11px;
+    width: 7em;
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white; 
+    font-size: 16px;
+}
+
+.nav--button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+nav a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background-color: white;
+    color: #FFBBBF;
+    border-radius: 17px;
+    width: 21.4em;
+    text-decoration: none;
+    margin-top: 130px;
+    margin-left: 226px;
+    pointer-events: none;
+    height: 1.66em;
+}
+
+body {
+    background-color: #FFE8B0;
+}
+
+#background #h1{
+    pointer-events: none;
+}
+
+#logo {
+    display: flex;
+    margin-left: 15px;
+    float: left;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.nav--button {
+    background-color: #FFBBBF;
+    padding: 6px;
+    border-radius: 17px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 11px;
+    width: 7em;
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white; 
+    font-size: 16px;
+}
+
+.nav--button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+nav a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background-color: white;
+    color: #FFBBBF;
+    border-radius: 17px;
+    width: 21.4em;
+    text-decoration: none;
+    margin-top: 130px;
+    margin-left: 226px;
+    pointer-events: none;
+    height: 1.66em;
+}
+
+#sprinklebackground {
+    position: relative;
+    margin-top: 310px;
+    margin-left: 18px;
+    transform: translateY(-206px);
+}
+
+.map {
+    position: relative;
+    transform: translateY(-726px);
+    margin-left: 360px;
+}
+
+.map img {
+    border-radius: 17px;
+}
+
+input[type=text], select, textarea {
+    width: 25em;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 13px;
+    border-radius: 6px;
+    resize: vertical;
+    background-color: #FFF6F5;
+}
+
+
+input[type=submit] {
+    background-color: #FFBBBF;
+    color: white;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 17px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 16px;
+    width: 7em;
+    align-content: center;
+}
+
+input[type=submit]:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.container {
+    background-color: none;
+    width: 10em;
+    position: relative;
+    transform: translateY(-1242px);
+    margin-left: 690px;
+}
+
+label {
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 20px;
+}
+
+#message {
+    padding-bottom: 40px;
+}
+
+h3 {
+    display: flex;
+    transform: translateY(-1179px);
+    margin-left: 690px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 20px;
+}
+
+.address {
+    display: flex;
+    transform: translateY(-1196px);
+    margin-left: 745px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    font-size: 14px;
+    width: 12em;
+}
+
+.indicator {
+    display: flex;
+    transform: translateY(-1242px);
+    margin-left: 690px;
+}
+
+
+
+
+
+
+
+
